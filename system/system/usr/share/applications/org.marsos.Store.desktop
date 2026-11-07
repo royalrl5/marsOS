@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=App Store
+Comment=Find and install apps
+Exec=marsos-store
+Icon=system-software-install
+Categories=System;
+StartupNotify=true
+

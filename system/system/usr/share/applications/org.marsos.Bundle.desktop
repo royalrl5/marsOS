@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Bundle Runner
+Comment=Open and install .bundle files
+Exec=marsos-bundle %f
+Icon=package-x-generic
+Categories=System;Utility;
+StartupNotify=true
+MimeType=application/x-marsos-bundle;application/vnd.flatpak;

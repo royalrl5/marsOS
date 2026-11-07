@@ -1,0 +1,14 @@
+[Unit]
+Description=marsOS: install the apps chosen during setup
+After=NetworkManager.service
+Wants=NetworkManager.service
+ConditionPathExists=/var/lib/marsos/pending-apps.json
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/nm-online -q -t 180
+ExecStart=/usr/bin/marsos-helper process-pending
+TimeoutStartSec=infinity
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Lets AUR builds ask for the password in a normal window instead of a terminal.
+export SUDO_ASKPASS=/usr/bin/ksshaskpass
+exec sudo -A "$@"

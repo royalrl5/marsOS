@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Launchpad
+Comment=See all your apps
+Exec=marsos-launchpad
+Icon=view-app-grid-symbolic
+Categories=System;
+StartupNotify=true
+

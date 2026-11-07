@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=System Settings
+Comment=Change how your computer works
+Exec=marsos-settings
+Icon=preferences-system
+Categories=System;Settings;
+StartupNotify=true
+

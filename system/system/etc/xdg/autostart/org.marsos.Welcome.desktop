@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Welcome to marsOS
+Exec=marsos-welcome --first-run
+NoDisplay=true
+X-KDE-autostart-phase=2

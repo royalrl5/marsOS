@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Spotlight
+Comment=Search for anything
+Exec=marsos-spotlight --toggle
+Icon=system-search
+Categories=System;Utility;
+StartupNotify=true
+X-KDE-Keywords=search;find

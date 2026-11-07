@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Software Update
+Comment=Keep marsOS up to date
+Exec=marsos-updater
+Icon=system-software-update
+Categories=System;
+StartupNotify=true
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Welcome to marsOS
+Comment=A quick tour
+Exec=marsos-welcome
+Icon=help-about
+Categories=System;
+StartupNotify=true
+

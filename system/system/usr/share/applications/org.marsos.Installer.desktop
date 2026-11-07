@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Install marsOS
+Comment=Install marsOS on this computer
+Exec=marsos-installer
+Icon=system-software-install
+Categories=System;
+StartupNotify=true
+NoDisplay=true

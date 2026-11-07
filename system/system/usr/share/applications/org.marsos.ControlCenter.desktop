@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Control Center
+Comment=Wi-Fi, sound, brightness and more
+Exec=marsos-control-center
+Icon=preferences-system-network
+Categories=System;
+StartupNotify=true
+
