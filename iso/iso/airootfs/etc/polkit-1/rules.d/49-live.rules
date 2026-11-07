@@ -1,0 +1,4 @@
+// Live session only: the installer needs administrator rights without a password.
+polkit.addRule(function(action, subject) {
+    if (subject.user == "live") { return polkit.Result.YES; }
+});

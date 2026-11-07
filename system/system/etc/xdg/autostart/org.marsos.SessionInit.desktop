@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=marsOS session setup
+Exec=marsos-session-init
+NoDisplay=true
+X-KDE-autostart-phase=2

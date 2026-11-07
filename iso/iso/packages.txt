@@ -1,0 +1,76 @@
+# Everything the live ISO and the installed system contain, on top of Arch's "releng" profile.
+# --- kernel (zen: binder for Waydroid, good desktop latency) and Apple Wi-Fi
+linux-zen
+linux-zen-headers
+dkms
+broadcom-wl-dkms
+intel-ucode
+amd-ucode
+linux-firmware
+sof-firmware
+# --- boot / install tools
+grub
+efibootmgr
+dosfstools
+e2fsprogs
+gptfdisk
+parted
+rsync
+arch-install-scripts
+# --- desktop
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+powerdevil
+bluedevil
+kscreen
+kwin
+sddm
+sddm-kcm
+breeze
+breeze-gtk
+kde-gtk-config
+xdg-desktop-portal-kde
+xdg-user-dirs
+xdg-utils
+dolphin
+okular
+gwenview
+ark
+kate
+spectacle
+konsole
+ksshaskpass
+discover
+print-manager
+cups
+system-config-printer
+# --- audio / bluetooth / network
+pipewire
+pipewire-pulse
+pipewire-alsa
+wireplumber
+bluez
+bluez-utils
+networkmanager
+brightnessctl
+# --- apps and platform
+firefox
+flatpak
+polkit
+pyside6
+python
+pacman-contrib
+git
+base-devel
+# --- older-Mac friendliness
+zram-generator
+thermald
+keyd
+mesa
+libva-intel-driver
+# --- fonts
+inter-font
+noto-fonts
+noto-fonts-emoji

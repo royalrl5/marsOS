@@ -1,0 +1,24 @@
+# Maintainer: marsOS
+pkgname=marsos-desktop
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="marsOS desktop apps: App Store, installer, settings, Spotlight, Launchpad, Bundle Runner"
+arch=(any)
+url="https://github.com/your-name/marsos"
+license=(MIT)
+depends=(python pyside6 flatpak polkit)
+makedepends=(python-build python-installer python-setuptools python-wheel)
+_root="$startdir/.."
+
+build() {
+  cd "$_root"
+  python -m build --wheel --no-isolation --outdir "$srcdir/dist"
+}
+
+package() {
+  cd "$_root"
+  python -m installer --destdir="$pkgdir" "$srcdir"/dist/*.whl
+  cp -a system/. "$pkgdir/"
+  chmod 755 "$pkgdir/usr/lib/marsos/sudo-askpass"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

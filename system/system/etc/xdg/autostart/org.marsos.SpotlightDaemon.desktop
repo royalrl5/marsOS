@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Spotlight
+Exec=marsos-spotlight --daemon
+NoDisplay=true
+X-KDE-autostart-phase=2

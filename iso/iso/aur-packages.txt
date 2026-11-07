@@ -1,0 +1,6 @@
+paru-bin
+mbpfan-git
+whitesur-kde-git
+whitesur-icon-theme-git
+whitesur-cursor-theme-git
+whitesur-gtk-theme-git
